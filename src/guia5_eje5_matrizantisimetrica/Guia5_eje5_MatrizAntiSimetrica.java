@@ -40,6 +40,7 @@ public class Guia5_eje5_MatrizAntiSimetrica {
                 A[i][j] = leer.nextInt();
             }
         }
+        System.out.println("Ingrese la matriz antisimetrica manualmente");
         for (int i = 0; i < 2; i++) {
             for (int j = 0; j < 2; j++) {
                 if (matriz[i][j] == A[j][i] * -1) {
